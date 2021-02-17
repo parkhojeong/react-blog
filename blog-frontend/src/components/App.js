@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 import { ListPage, PostPage, EditorPage, NotFoundPage } from "pages";
 
-import "styles/app.scss";
-
 class App extends Component {
   render() {
     return (
